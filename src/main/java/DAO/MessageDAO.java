@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.Account;
+
 import Model.Message;
 import Util.ConnectionUtil;
 
@@ -18,7 +18,7 @@ public class MessageDAO {
     public Message addMessage(Message message){
 		Connection connection = ConnectionUtil.getConnection();
 		try{
-			String sql = "INSERT INTO messages (posted_by, message_text, time_posted_epoch) VALUES (?, ?, ?) WHERE LEN(message_text) < 256;";
+			String sql = "INSERT INTO messages (posted_by, message_text, time_posted_epoch) VALUES (?, ?, ?);";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
 			preparedStatement.setInt(1, message.getPosted_by());

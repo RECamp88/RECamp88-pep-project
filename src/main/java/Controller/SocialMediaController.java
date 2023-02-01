@@ -13,11 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
-/**
- * TODO: You will need to write your own endpoints and handlers for your controller. The endpoints you will need can be
- * found in readme.md as well as the test cases. You should
- * refer to prior mini-project labs and lecture materials for guidance on how a controller may be built.
- */
+
 public class SocialMediaController {
     AccountService accountService;
     MessageService messageService;
@@ -38,8 +34,8 @@ public class SocialMediaController {
         app.post("localhost:8080/register", this::postRegisterHandler);
         app.post("localhost:8080/login", this::postAccountLoginHandler);
         app.post("localhost:8080/messages", this::postMessageHandler);
-        app.get("localhost:8080/messages/{message_id}", this::getAllMessagesHandler);
-        app.get("localhost:8080/messages/{message_id}", this::getMessageByIdHandler);
+        app.get("localhost:8080/messages", this::getAllMessagesHandler);
+        app.get("localhost:8080/messages/message_id", this::getMessageByIdHandler);
         return app;
     }
     
@@ -58,6 +54,16 @@ public class SocialMediaController {
     }
     // handles the 2nd requirement of validating a login
     private void postAccountLoginHandler(Context context) throws JsonProcessingException{
+
+        ObjectMapper mapper = new ObjectMapper();
+        Account account = mapper.readValue(context.body(), Account.class);
+        Account loginAccount = accountService.loginAccount(account);
+        if(loginAccount!=null){
+            context.json(mapper.writeValueAsString(loginAccount));
+
+        }else{
+            context.status(401);
+        }
 
     }
     // handles the 3rd requirement of adding a message
