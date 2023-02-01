@@ -14,7 +14,7 @@ public class AccountService {
         this.accountDAO - accountDAO;
     }
 
-    // using the AccountDAO to persist and account.  Account ID will not be provided. 
+    // using the AccountDAO to persist an account.  Account ID will not be provided. 
     public Account addAccount(Account account){
         return accountDAO.addAccount(account);
     }

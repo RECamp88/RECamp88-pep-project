@@ -1,7 +1,7 @@
-commit 7f113012e17fd5785f6a06535eb74fde49b1d24d
+commit 4ea4b486d32b658d5053b72ef4854c780fe791cc
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Wed Feb 1 09:15:51 2023 +0000
+Date:   Wed Feb 1 09:32:23 2023 +0000
 
-    Added Controller and AccountDAO for addAccount
+    Added constructors & addAccount to AccountService
 
- 2 files changed, 19 insertions(+), 1418 deletions(-)
+ 3 files changed, 24 insertions(+), 6 deletions(-)
