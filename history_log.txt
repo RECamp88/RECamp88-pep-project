@@ -1,7 +1,7 @@
-commit 6464a2a3f9cdd7a57f25e41b2c66f83f5ef9c423
+commit 1ff759119ff74e6fdf94f5b1004dcd76a7ea150a
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Wed Feb 1 10:13:56 2023 +0000
+Date:   Wed Feb 1 15:46:13 2023 +0000
 
-    added to MessageDAO, MessageService & controller
+    added import statements & addMessage code
 
- 6 files changed, 96 insertions(+), 9 deletions(-)
+ 6 files changed, 66 insertions(+), 21 deletions(-)
