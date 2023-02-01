@@ -3,234 +3,30 @@
 [INFO] ----------------------< org.revature:Challenges >-----------------------
 [INFO] Building Challenges 1.1
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom
-Progress (1): 2.7/7.2 kBProgress (1): 5.5/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom (7.2 kB at 19 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom
-Progress (1): 2.7/22 kBProgress (1): 5.5/22 kBProgress (1): 8.2/22 kBProgress (1): 11/22 kB Progress (1): 14/22 kBProgress (1): 16/22 kBProgress (1): 19/22 kBProgress (1): 21/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom (22 kB at 657 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
-Progress (1): 4.1/45 kBProgress (1): 8.2/45 kBProgress (1): 12/45 kB Progress (1): 16/45 kBProgress (1): 20/45 kBProgress (1): 25/45 kBProgress (1): 29/45 kBProgress (1): 33/45 kBProgress (1): 37/45 kBProgress (1): 41/45 kBProgress (1): 45/45 kBProgress (1): 45 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom (45 kB at 1.5 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
-Progress (1): 4.1/21 kBProgress (1): 8.2/21 kBProgress (1): 12/21 kB Progress (1): 16/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom (21 kB at 285 kB/s)
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Challenges ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [INFO] Copying 1 resource
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Challenges ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to /workspace/RECamp88-pep-project/target/classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Challenges ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [INFO] skip non existing resourceDirectory /workspace/RECamp88-pep-project/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Challenges ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 2 source files to /workspace/RECamp88-pep-project/target/test-classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ Challenges ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/3.0.0-M7/surefire-junit47-3.0.0-M7.pom
-Progress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/3.0.0-M7/surefire-junit47-3.0.0-M7.pom (4.0 kB at 135 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.0.0-M7/surefire-providers-3.0.0-M7.pom
-Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.0.0-M7/surefire-providers-3.0.0-M7.pom (2.5 kB at 37 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/3.0.0-M7/common-junit48-3.0.0-M7.pom
-Progress (1): 4.1/7.9 kBProgress (1): 7.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/3.0.0-M7/common-junit48-3.0.0-M7.pom (7.9 kB at 202 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M7/common-junit4-3.0.0-M7.pom
-Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M7/common-junit4-3.0.0-M7.pom (3.0 kB at 58 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M7/common-junit3-3.0.0-M7.pom
-Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M7/common-junit3-3.0.0-M7.pom (2.7 kB at 110 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.pom
-Progress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.pom (3.4 kB at 161 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.pom
-Progress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.pom (3.6 kB at 140 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.pom
-Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.pom (3.9 kB at 169 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M7/common-java5-3.0.0-M7.pom
-Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M7/common-java5-3.0.0-M7.pom (2.7 kB at 73 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/3.0.0-M7/surefire-grouper-3.0.0-M7.pom
-Progress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/3.0.0-M7/surefire-grouper-3.0.0-M7.pom (3.3 kB at 124 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.pom
-Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.pom (6.5 kB at 294 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.pom
-Progress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.pom (3.6 kB at 62 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.pom
-Progress (1): 4.1/4.4 kBProgress (1): 4.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.pom (4.4 kB at 198 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.pom
-Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.pom (1.8 kB at 28 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.pom
-Progress (1): 4.1/5.8 kBProgress (1): 5.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.pom (5.8 kB at 290 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
-Progress (1): 4.1/5.1 kBProgress (1): 5.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom (5.1 kB at 255 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
-Progress (1): 4.1/43 kBProgress (1): 8.2/43 kBProgress (1): 12/43 kB Progress (1): 16/43 kBProgress (1): 20/43 kBProgress (1): 25/43 kBProgress (1): 29/43 kBProgress (1): 33/43 kBProgress (1): 37/43 kBProgress (1): 41/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 974 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
-Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 877 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom
-Progress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom (2.3 kB at 124 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.5/maven-3.2.5.pom
-Progress (1): 4.1/22 kBProgress (1): 8.2/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.5/maven-3.2.5.pom (22 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
-Progress (1): 4.1/37 kBProgress (1): 8.2/37 kBProgress (1): 12/37 kB Progress (1): 16/37 kBProgress (1): 20/37 kBProgress (1): 25/37 kBProgress (1): 29/37 kBProgress (1): 33/37 kBProgress (1): 37/37 kBProgress (1): 37 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom (37 kB at 1.7 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
-Progress (1): 4.1/15 kBProgress (1): 8.2/15 kBProgress (1): 12/15 kB Progress (1): 15 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom (15 kB at 491 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom
-Progress (1): 4.1/5.2 kBProgress (1): 5.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom (5.2 kB at 273 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
-Progress (1): 4.1/23 kBProgress (1): 8.2/23 kBProgress (1): 12/23 kB Progress (1): 16/23 kBProgress (1): 20/23 kBProgress (1): 23 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom (23 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom
-Progress (1): 4.1/8.1 kBProgress (1): 8.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom (8.1 kB at 424 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom
-Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom (2.2 kB at 114 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom
-Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom (2.6 kB at 144 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
-Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom (1.5 kB at 77 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.pom
-Progress (1): 770 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.pom (770 B at 38 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.1/plexus-containers-2.1.1.pom
-Progress (1): 4.1/6.0 kBProgress (1): 6.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.1/plexus-containers-2.1.1.pom (6.0 kB at 241 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom
-Progress (1): 4.1/26 kBProgress (1): 8.2/26 kBProgress (1): 12/26 kB Progress (1): 16/26 kBProgress (1): 20/26 kBProgress (1): 24/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom (26 kB at 1.4 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
-Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom (2.2 kB at 117 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom
-Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom (3.0 kB at 159 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.pom
-Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.pom (4.3 kB at 226 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.5/sisu-plexus-0.3.5.pom
-Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.5/sisu-plexus-0.3.5.pom (14 kB at 686 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-Progress (1): 4.1/6.6 kBProgress (1): 6.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 346 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
-Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom (13 kB at 611 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
-Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 200 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom
-Progress (1): 4.1/6.3 kBProgress (1): 6.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom (6.3 kB at 330 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom
-Progress (1): 4.1/32 kBProgress (1): 8.2/32 kBProgress (1): 12/32 kB Progress (1): 16/32 kBProgress (1): 20/32 kBProgress (1): 25/32 kBProgress (1): 29/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom (32 kB at 1.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
-Progress (1): 612 B                   Downloaded from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 32 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom
-Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom (2.6 kB at 131 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom
-Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom (14 kB at 686 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
-Progress (1): 4.1/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom (7.3 kB at 384 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
-Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom (3.0 kB at 86 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
-Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom (4.2 kB at 142 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
-Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom (1.9 kB at 100 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
-Progress (1): 4.1/30 kBProgress (1): 8.2/30 kBProgress (1): 12/30 kB Progress (1): 16/30 kBProgress (1): 20/30 kBProgress (1): 24/30 kBProgress (1): 28/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom (30 kB at 1.4 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom
-Progress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom (2.1 kB at 114 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
-Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom (2.2 kB at 122 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom
-Progress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom (3.5 kB at 158 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom
-Progress (1): 4.1/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom (11 kB at 547 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom
-Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom (13 kB at 709 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom
-Progress (1): 4.1/19 kBProgress (1): 8.2/19 kBProgress (1): 12/19 kB Progress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom (19 kB at 986 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
-Progress (1): 363 B                   Downloaded from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom (363 B at 20 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
-Progress (1): 4.1/6.1 kBProgress (1): 6.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom (6.1 kB at 321 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
-Progress (1): 4.1/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom (7.3 kB at 432 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
-Progress (1): 4.1/20 kBProgress (1): 8.2/20 kBProgress (1): 12/20 kB Progress (1): 16/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom (20 kB at 1.0 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
-Progress (1): 4.1/79 kBProgress (1): 8.2/79 kBProgress (1): 12/79 kB Progress (1): 16/79 kBProgress (1): 20/79 kBProgress (1): 24/79 kBProgress (1): 28/79 kBProgress (1): 32/79 kBProgress (1): 36/79 kBProgress (1): 40/79 kBProgress (1): 45/79 kBProgress (1): 49/79 kBProgress (1): 53/79 kBProgress (1): 57/79 kBProgress (1): 61/79 kBProgress (1): 65/79 kBProgress (1): 69/79 kBProgress (1): 73/79 kBProgress (1): 77/79 kBProgress (1): 79 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom (79 kB at 3.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
-Progress (1): 4.1/5.1 kBProgress (1): 5.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 212 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
-Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom (5.0 kB at 237 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
-Progress (1): 4.1/4.6 kBProgress (1): 4.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom (4.6 kB at 220 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
-Progress (1): 4.1/25 kBProgress (1): 8.2/25 kBProgress (1): 12/25 kB Progress (1): 16/25 kBProgress (1): 20/25 kBProgress (1): 25/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom (25 kB at 1.4 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom
-Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom (2.4 kB at 139 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
-Progress (1): 4.1/16 kBProgress (1): 8.2/16 kBProgress (1): 12/16 kB Progress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom (16 kB at 801 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/3.0.0-M7/surefire-junit47-3.0.0-M7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/3.0.0-M7/common-junit48-3.0.0-M7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M7/common-junit4-3.0.0-M7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M7/common-junit3-3.0.0-M7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M7/common-java5-3.0.0-M7.jar
-Progress (1): 4.1/90 kBProgress (1): 8.2/90 kBProgress (1): 12/90 kB Progress (1): 16/90 kBProgress (1): 20/90 kBProgress (1): 25/90 kBProgress (1): 29/90 kBProgress (1): 33/90 kBProgress (1): 37/90 kBProgress (1): 41/90 kBProgress (1): 45/90 kBProgress (1): 49/90 kBProgress (1): 53/90 kBProgress (1): 57/90 kBProgress (1): 61/90 kBProgress (1): 66/90 kBProgress (1): 70/90 kBProgress (1): 74/90 kBProgress (1): 78/90 kBProgress (1): 82/90 kBProgress (1): 86/90 kBProgress (1): 90 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/3.0.0-M7/surefire-junit47-3.0.0-M7.jar (90 kB at 3.0 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/3.0.0-M7/surefire-grouper-3.0.0-M7.jar
-Progress (1): 2.7/12 kBProgress (1): 5.5/12 kBProgress (1): 8.2/12 kBProgress (1): 11/12 kB Progress (2): 11/12 kB | 2.7/21 kBProgress (2): 12 kB | 2.7/21 kB   Progress (2): 12 kB | 5.5/21 kBProgress (3): 12 kB | 5.5/21 kB | 2.7/26 kBProgress (3): 12 kB | 8.2/21 kB | 2.7/26 kBProgress (3): 12 kB | 8.2/21 kB | 5.5/26 kBProgress (3): 12 kB | 11/21 kB | 5.5/26 kB Progress (3): 12 kB | 11/21 kB | 8.2/26 kBProgress (3): 12 kB | 14/21 kB | 8.2/26 kBProgress (3): 12 kB | 14/21 kB | 11/26 kB Progress (3): 12 kB | 16/21 kB | 11/26 kBProgress (3): 12 kB | 16/21 kB | 14/26 kBProgress (3): 12 kB | 19/21 kB | 14/26 kBProgress (3): 12 kB | 19/21 kB | 16/26 kBProgress (3): 12 kB | 21/21 kB | 16/26 kBProgress (3): 12 kB | 21/21 kB | 19/26 kBProgress (3): 12 kB | 21/21 kB | 21/26 kBProgress (3): 12 kB | 21 kB | 21/26 kB   Progress (4): 12 kB | 21 kB | 21/26 kB | 2.7/17 kBProgress (4): 12 kB | 21 kB | 21/26 kB | 5.5/17 kBProgress (4): 12 kB | 21 kB | 21/26 kB | 8.2/17 kBProgress (4): 12 kB | 21 kB | 24/26 kB | 8.2/17 kBProgress (4): 12 kB | 21 kB | 24/26 kB | 11/17 kB Progress (4): 12 kB | 21 kB | 26 kB | 11/17 kB   Progress (4): 12 kB | 21 kB | 26 kB | 14/17 kBProgress (4): 12 kB | 21 kB | 26 kB | 16/17 kBProgress (4): 12 kB | 21 kB | 26 kB | 17 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M7/common-junit3-3.0.0-M7.jar (12 kB at 255 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M7/common-java5-3.0.0-M7.jar (17 kB at 346 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M7/common-junit4-3.0.0-M7.jar (26 kB at 219 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/3.0.0-M7/common-junit48-3.0.0-M7.jar (21 kB at 182 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.jar
-Progress (1): 4.1/40 kBProgress (1): 8.2/40 kBProgress (1): 12/40 kB Progress (2): 12/40 kB | 2.7/169 kBProgress (2): 16/40 kB | 2.7/169 kBProgress (2): 16/40 kB | 5.5/169 kBProgress (2): 16/40 kB | 8.2/169 kBProgress (2): 20/40 kB | 8.2/169 kBProgress (2): 20/40 kB | 11/169 kB Progress (2): 25/40 kB | 11/169 kBProgress (2): 29/40 kB | 11/169 kBProgress (2): 29/40 kB | 14/169 kBProgress (2): 33/40 kB | 14/169 kBProgress (2): 33/40 kB | 16/169 kBProgress (2): 33/40 kB | 20/169 kBProgress (2): 33/40 kB | 24/169 kBProgress (2): 33/40 kB | 28/169 kBProgress (2): 33/40 kB | 32/169 kBProgress (2): 33/40 kB | 36/169 kBProgress (2): 33/40 kB | 40/169 kBProgress (2): 33/40 kB | 45/169 kBProgress (2): 33/40 kB | 49/169 kBProgress (2): 37/40 kB | 49/169 kBProgress (2): 40 kB | 49/169 kB   Progress (2): 40 kB | 53/169 kBProgress (2): 40 kB | 57/169 kBProgress (2): 40 kB | 61/169 kBProgress (2): 40 kB | 65/169 kBProgress (3): 40 kB | 65/169 kB | 2.7/14 kBProgress (3): 40 kB | 65/169 kB | 5.5/14 kBProgress (3): 40 kB | 65/169 kB | 8.2/14 kBProgress (3): 40 kB | 65/169 kB | 11/14 kB Progress (3): 40 kB | 65/169 kB | 14 kB   Progress (3): 40 kB | 69/169 kB | 14 kBProgress (3): 40 kB | 73/169 kB | 14 kBProgress (3): 40 kB | 77/169 kB | 14 kBProgress (3): 40 kB | 81/169 kB | 14 kBProgress (3): 40 kB | 85/169 kB | 14 kBProgress (3): 40 kB | 90/169 kB | 14 kBProgress (3): 40 kB | 94/169 kB | 14 kBProgress (3): 40 kB | 98/169 kB | 14 kBProgress (4): 40 kB | 98/169 kB | 14 kB | 4.1/305 kBProgress (4): 40 kB | 98/169 kB | 14 kB | 8.2/305 kBProgress (4): 40 kB | 98/169 kB | 14 kB | 12/305 kB Progress (4): 40 kB | 98/169 kB | 14 kB | 16/305 kB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/3.0.0-M7/surefire-grouper-3.0.0-M7.jar (40 kB at 306 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.jar
-Progress (3): 98/169 kB | 14 kB | 20/305 kBProgress (3): 98/169 kB | 14 kB | 25/305 kBProgress (3): 98/169 kB | 14 kB | 29/305 kBProgress (3): 98/169 kB | 14 kB | 33/305 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.jar (14 kB at 101 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.jar
-Progress (2): 102/169 kB | 33/305 kBProgress (2): 106/169 kB | 33/305 kBProgress (2): 110/169 kB | 33/305 kBProgress (2): 114/169 kB | 33/305 kBProgress (2): 118/169 kB | 33/305 kBProgress (2): 122/169 kB | 33/305 kBProgress (2): 126/169 kB | 33/305 kBProgress (2): 131/169 kB | 33/305 kBProgress (2): 131/169 kB | 37/305 kBProgress (2): 131/169 kB | 41/305 kBProgress (2): 131/169 kB | 45/305 kBProgress (2): 131/169 kB | 49/305 kBProgress (2): 135/169 kB | 49/305 kBProgress (2): 139/169 kB | 49/305 kBProgress (2): 143/169 kB | 49/305 kBProgress (2): 147/169 kB | 49/305 kBProgress (2): 147/169 kB | 53/305 kBProgress (2): 147/169 kB | 57/305 kBProgress (2): 147/169 kB | 61/305 kBProgress (2): 147/169 kB | 66/305 kBProgress (2): 147/169 kB | 70/305 kBProgress (2): 147/169 kB | 74/305 kBProgress (2): 147/169 kB | 78/305 kBProgress (2): 147/169 kB | 82/305 kBProgress (2): 147/169 kB | 86/305 kBProgress (2): 147/169 kB | 90/305 kBProgress (2): 147/169 kB | 94/305 kBProgress (2): 147/169 kB | 98/305 kBProgress (3): 147/169 kB | 98/305 kB | 4.1/117 kBProgress (3): 147/169 kB | 98/305 kB | 8.2/117 kBProgress (3): 147/169 kB | 98/305 kB | 12/117 kB Progress (3): 147/169 kB | 98/305 kB | 16/117 kBProgress (4): 147/169 kB | 98/305 kB | 16/117 kB | 2.7/25 kBProgress (4): 147/169 kB | 98/305 kB | 20/117 kB | 2.7/25 kBProgress (4): 147/169 kB | 98/305 kB | 25/117 kB | 2.7/25 kBProgress (4): 147/169 kB | 98/305 kB | 29/117 kB | 2.7/25 kBProgress (4): 147/169 kB | 98/305 kB | 33/117 kB | 2.7/25 kBProgress (4): 147/169 kB | 98/305 kB | 33/117 kB | 5.5/25 kBProgress (4): 147/169 kB | 98/305 kB | 37/117 kB | 5.5/25 kBProgress (4): 147/169 kB | 98/305 kB | 37/117 kB | 8.2/25 kBProgress (4): 147/169 kB | 98/305 kB | 41/117 kB | 8.2/25 kBProgress (4): 147/169 kB | 98/305 kB | 45/117 kB | 8.2/25 kBProgress (4): 147/169 kB | 98/305 kB | 45/117 kB | 11/25 kB Progress (4): 147/169 kB | 98/305 kB | 49/117 kB | 11/25 kBProgress (4): 147/169 kB | 98/305 kB | 49/117 kB | 14/25 kBProgress (5): 147/169 kB | 98/305 kB | 49/117 kB | 14/25 kB | 2.7/8.1 kBProgress (5): 147/169 kB | 98/305 kB | 53/117 kB | 14/25 kB | 2.7/8.1 kBProgress (5): 147/169 kB | 98/305 kB | 53/117 kB | 16/25 kB | 2.7/8.1 kBProgress (5): 151/169 kB | 98/305 kB | 53/117 kB | 16/25 kB | 2.7/8.1 kBProgress (5): 151/169 kB | 98/305 kB | 53/117 kB | 16/25 kB | 5.5/8.1 kBProgress (5): 151/169 kB | 98/305 kB | 57/117 kB | 16/25 kB | 5.5/8.1 kBProgress (5): 155/169 kB | 98/305 kB | 57/117 kB | 16/25 kB | 5.5/8.1 kBProgress (5): 155/169 kB | 98/305 kB | 57/117 kB | 19/25 kB | 5.5/8.1 kBProgress (5): 155/169 kB | 102/305 kB | 57/117 kB | 19/25 kB | 5.5/8.1 kBProgress (5): 159/169 kB | 102/305 kB | 57/117 kB | 19/25 kB | 5.5/8.1 kBProgress (5): 159/169 kB | 102/305 kB | 57/117 kB | 19/25 kB | 8.1 kB    Progress (5): 159/169 kB | 102/305 kB | 61/117 kB | 19/25 kB | 8.1 kBProgress (5): 163/169 kB | 102/305 kB | 61/117 kB | 19/25 kB | 8.1 kBProgress (5): 163/169 kB | 106/305 kB | 61/117 kB | 19/25 kB | 8.1 kBProgress (5): 163/169 kB | 106/305 kB | 61/117 kB | 22/25 kB | 8.1 kBProgress (5): 167/169 kB | 106/305 kB | 61/117 kB | 22/25 kB | 8.1 kBProgress (5): 167/169 kB | 111/305 kB | 61/117 kB | 22/25 kB | 8.1 kBProgress (5): 167/169 kB | 111/305 kB | 66/117 kB | 22/25 kB | 8.1 kBProgress (5): 167/169 kB | 115/305 kB | 66/117 kB | 22/25 kB | 8.1 kBProgress (5): 169 kB | 115/305 kB | 66/117 kB | 22/25 kB | 8.1 kB    Progress (5): 169 kB | 115/305 kB | 66/117 kB | 25/25 kB | 8.1 kBProgress (5): 169 kB | 115/305 kB | 66/117 kB | 25 kB | 8.1 kB   Progress (5): 169 kB | 119/305 kB | 66/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 119/305 kB | 70/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 123/305 kB | 70/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 123/305 kB | 74/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 127/305 kB | 74/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 127/305 kB | 78/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 131/305 kB | 78/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 131/305 kB | 82/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 135/305 kB | 82/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 135/305 kB | 86/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 139/305 kB | 86/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 139/305 kB | 90/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 143/305 kB | 90/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 143/305 kB | 94/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 147/305 kB | 94/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 147/305 kB | 98/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 152/305 kB | 98/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 152/305 kB | 102/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 156/305 kB | 102/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 156/305 kB | 106/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 160/305 kB | 106/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 160/305 kB | 111/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 164/305 kB | 111/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 164/305 kB | 115/117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 164/305 kB | 117 kB | 25 kB | 8.1 kB    Progress (5): 169 kB | 168/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 172/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 176/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 180/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 184/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 188/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 193/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 197/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 201/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 205/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 209/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 213/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 217/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 221/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 225/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 229/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 233/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 238/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 242/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 246/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 250/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 254/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 258/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 262/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 266/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 270/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 274/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 279/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 283/305 kB | 117 kB | 25 kB | 8.1 kBProgress (5): 169 kB | 287/305 kB | 117 kB | 25 kB | 8.1 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.jar (8.1 kB at 52 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.jar (169 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.jar (117 kB at 734 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
-Progress (2): 291/305 kB | 25 kBProgress (2): 295/305 kB | 25 kBProgress (2): 299/305 kB | 25 kBProgress (2): 303/305 kB | 25 kBProgress (2): 305 kB | 25 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.jar (25 kB at 117 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
-Progress (2): 305 kB | 4.1/61 kBProgress (2): 305 kB | 8.2/61 kBProgress (2): 305 kB | 12/61 kB Progress (2): 305 kB | 16/61 kBProgress (2): 305 kB | 20/61 kBProgress (2): 305 kB | 25/61 kBProgress (2): 305 kB | 29/61 kBProgress (2): 305 kB | 33/61 kBProgress (3): 305 kB | 33/61 kB | 4.1/54 kBProgress (3): 305 kB | 37/61 kB | 4.1/54 kBProgress (4): 305 kB | 37/61 kB | 4.1/54 kB | 4.1/327 kBProgress (4): 305 kB | 41/61 kB | 4.1/54 kB | 4.1/327 kBProgress (4): 305 kB | 41/61 kB | 8.2/54 kB | 4.1/327 kBProgress (4): 305 kB | 45/61 kB | 8.2/54 kB | 4.1/327 kBProgress (4): 305 kB | 45/61 kB | 8.2/54 kB | 8.2/327 kBProgress (4): 305 kB | 49/61 kB | 8.2/54 kB | 8.2/327 kBProgress (4): 305 kB | 49/61 kB | 12/54 kB | 8.2/327 kB Progress (4): 305 kB | 49/61 kB | 12/54 kB | 12/327 kB Progress (4): 305 kB | 49/61 kB | 16/54 kB | 12/327 kBProgress (4): 305 kB | 49/61 kB | 16/54 kB | 16/327 kBProgress (4): 305 kB | 53/61 kB | 16/54 kB | 16/327 kBProgress (4): 305 kB | 57/61 kB | 16/54 kB | 16/327 kBProgress (4): 305 kB | 61 kB | 16/54 kB | 16/327 kB   Progress (4): 305 kB | 61 kB | 20/54 kB | 16/327 kBProgress (4): 305 kB | 61 kB | 20/54 kB | 20/327 kBProgress (4): 305 kB | 61 kB | 24/54 kB | 20/327 kBProgress (4): 305 kB | 61 kB | 24/54 kB | 25/327 kBProgress (4): 305 kB | 61 kB | 28/54 kB | 25/327 kBProgress (4): 305 kB | 61 kB | 28/54 kB | 29/327 kBProgress (4): 305 kB | 61 kB | 32/54 kB | 29/327 kBProgress (4): 305 kB | 61 kB | 32/54 kB | 33/327 kBProgress (4): 305 kB | 61 kB | 32/54 kB | 37/327 kBProgress (4): 305 kB | 61 kB | 32/54 kB | 41/327 kBProgress (4): 305 kB | 61 kB | 36/54 kB | 41/327 kBProgress (4): 305 kB | 61 kB | 36/54 kB | 45/327 kBProgress (4): 305 kB | 61 kB | 40/54 kB | 45/327 kBProgress (4): 305 kB | 61 kB | 40/54 kB | 49/327 kBProgress (4): 305 kB | 61 kB | 45/54 kB | 49/327 kBProgress (4): 305 kB | 61 kB | 49/54 kB | 49/327 kBProgress (4): 305 kB | 61 kB | 53/54 kB | 49/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 49/327 kB   Progress (4): 305 kB | 61 kB | 54 kB | 53/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 57/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 61/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 66/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 70/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 74/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 78/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 82/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 86/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 90/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 94/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 98/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 102/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 106/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 111/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 115/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 119/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 123/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 127/327 kBProgress (4): 305 kB | 61 kB | 54 kB | 131/327 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.jar (305 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
-Progress (3): 61 kB | 54 kB | 135/327 kBProgress (3): 61 kB | 54 kB | 139/327 kBProgress (3): 61 kB | 54 kB | 143/327 kBProgress (4): 61 kB | 54 kB | 143/327 kB | 4.1/122 kBProgress (4): 61 kB | 54 kB | 147/327 kB | 4.1/122 kBProgress (4): 61 kB | 54 kB | 147/327 kB | 8.2/122 kBProgress (4): 61 kB | 54 kB | 147/327 kB | 12/122 kB Progress (4): 61 kB | 54 kB | 147/327 kB | 16/122 kBProgress (4): 61 kB | 54 kB | 152/327 kB | 16/122 kBProgress (4): 61 kB | 54 kB | 156/327 kB | 16/122 kBProgress (4): 61 kB | 54 kB | 160/327 kB | 16/122 kBProgress (4): 61 kB | 54 kB | 160/327 kB | 20/122 kBProgress (4): 61 kB | 54 kB | 164/327 kB | 20/122 kBProgress (4): 61 kB | 54 kB | 164/327 kB | 24/122 kBProgress (4): 61 kB | 54 kB | 164/327 kB | 28/122 kBProgress (4): 61 kB | 54 kB | 164/327 kB | 32/122 kBProgress (4): 61 kB | 54 kB | 168/327 kB | 32/122 kB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar (61 kB at 267 kB/s)
-Progress (3): 54 kB | 172/327 kB | 32/122 kBProgress (3): 54 kB | 172/327 kB | 36/122 kB                                            Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.jar
-Progress (3): 54 kB | 172/327 kB | 40/122 kBProgress (3): 54 kB | 176/327 kB | 40/122 kBProgress (3): 54 kB | 176/327 kB | 45/122 kBProgress (3): 54 kB | 180/327 kB | 45/122 kBProgress (3): 54 kB | 180/327 kB | 49/122 kBProgress (3): 54 kB | 184/327 kB | 49/122 kBProgress (3): 54 kB | 188/327 kB | 49/122 kBProgress (3): 54 kB | 188/327 kB | 53/122 kBProgress (3): 54 kB | 193/327 kB | 53/122 kBProgress (3): 54 kB | 193/327 kB | 57/122 kBProgress (3): 54 kB | 197/327 kB | 57/122 kBProgress (3): 54 kB | 197/327 kB | 61/122 kBProgress (3): 54 kB | 197/327 kB | 65/122 kBProgress (3): 54 kB | 201/327 kB | 65/122 kBProgress (3): 54 kB | 201/327 kB | 69/122 kBProgress (3): 54 kB | 205/327 kB | 69/122 kBProgress (3): 54 kB | 209/327 kB | 69/122 kBProgress (3): 54 kB | 213/327 kB | 69/122 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar (54 kB at 234 kB/s)
-Progress (2): 217/327 kB | 69/122 kBProgress (2): 221/327 kB | 69/122 kBProgress (2): 225/327 kB | 69/122 kBProgress (2): 229/327 kB | 69/122 kBProgress (2): 233/327 kB | 69/122 kBProgress (2): 238/327 kB | 69/122 kBProgress (2): 242/327 kB | 69/122 kBProgress (2): 246/327 kB | 69/122 kBProgress (2): 250/327 kB | 69/122 kBProgress (2): 250/327 kB | 73/122 kBProgress (2): 254/327 kB | 73/122 kBProgress (2): 254/327 kB | 77/122 kBProgress (2): 258/327 kB | 77/122 kBProgress (2): 258/327 kB | 81/122 kBProgress (2): 262/327 kB | 81/122 kBProgress (2): 262/327 kB | 85/122 kBProgress (2): 266/327 kB | 85/122 kBProgress (2): 266/327 kB | 90/122 kBProgress (2): 270/327 kB | 90/122 kBProgress (2): 270/327 kB | 94/122 kBProgress (2): 274/327 kB | 94/122 kBProgress (2): 274/327 kB | 98/122 kBProgress (2): 279/327 kB | 98/122 kBProgress (2): 279/327 kB | 102/122 kBProgress (2): 279/327 kB | 106/122 kBProgress (2): 283/327 kB | 106/122 kBProgress (2): 283/327 kB | 110/122 kBProgress (2): 287/327 kB | 110/122 kBProgress (2): 287/327 kB | 114/122 kBProgress (2): 291/327 kB | 114/122 kBProgress (2): 295/327 kB | 114/122 kBProgress (2): 295/327 kB | 118/122 kBProgress (2): 295/327 kB | 122 kB    Progress (2): 299/327 kB | 122 kBProgress (3): 299/327 kB | 122 kB | 2.7/334 kBProgress (3): 303/327 kB | 122 kB | 2.7/334 kBProgress (3): 307/327 kB | 122 kB | 2.7/334 kBProgress (3): 307/327 kB | 122 kB | 5.5/334 kBProgress (3): 311/327 kB | 122 kB | 5.5/334 kBProgress (3): 311/327 kB | 122 kB | 8.2/334 kBProgress (3): 311/327 kB | 122 kB | 11/334 kB Progress (3): 311/327 kB | 122 kB | 14/334 kBProgress (3): 311/327 kB | 122 kB | 16/334 kBProgress (3): 315/327 kB | 122 kB | 16/334 kBProgress (3): 319/327 kB | 122 kB | 16/334 kBProgress (3): 324/327 kB | 122 kB | 16/334 kBProgress (3): 327 kB | 122 kB | 16/334 kB    Progress (3): 327 kB | 122 kB | 20/334 kBProgress (3): 327 kB | 122 kB | 24/334 kBProgress (3): 327 kB | 122 kB | 28/334 kBProgress (3): 327 kB | 122 kB | 32/334 kBProgress (4): 327 kB | 122 kB | 32/334 kB | 0/2.1 MBProgress (4): 327 kB | 122 kB | 32/334 kB | 0/2.1 MBProgress (4): 327 kB | 122 kB | 32/334 kB | 0/2.1 MB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar (122 kB at 500 kB/s)
-Progress (3): 327 kB | 32/334 kB | 0.1/2.1 MBProgress (3): 327 kB | 32/334 kB | 0.1/2.1 MB                                             Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 1.0 MB/s)
-Progress (2): 32/334 kB | 0.1/2.1 MBProgress (2): 36/334 kB | 0.1/2.1 MBProgress (2): 40/334 kB | 0.1/2.1 MBProgress (2): 45/334 kB | 0.1/2.1 MBProgress (2): 45/334 kB | 0.1/2.1 MBProgress (2): 49/334 kB | 0.1/2.1 MBProgress (2): 49/334 kB | 0.1/2.1 MBProgress (2): 53/334 kB | 0.1/2.1 MBProgress (2): 57/334 kB | 0.1/2.1 MBProgress (2): 61/334 kB | 0.1/2.1 MBProgress (2): 65/334 kB | 0.1/2.1 MBProgress (2): 65/334 kB | 0.1/2.1 MBProgress (2): 69/334 kB | 0.1/2.1 MBProgress (2): 69/334 kB | 0.2/2.1 MBProgress (2): 73/334 kB | 0.2/2.1 MBProgress (2): 77/334 kB | 0.2/2.1 MBProgress (2): 81/334 kB | 0.2/2.1 MBProgress (2): 81/334 kB | 0.2/2.1 MBProgress (2): 85/334 kB | 0.2/2.1 MBProgress (2): 90/334 kB | 0.2/2.1 MBProgress (2): 94/334 kB | 0.2/2.1 MBProgress (2): 94/334 kB | 0.2/2.1 MBProgress (2): 98/334 kB | 0.2/2.1 MBProgress (2): 102/334 kB | 0.2/2.1 MBProgress (2): 102/334 kB | 0.2/2.1 MBProgress (2): 106/334 kB | 0.2/2.1 MBProgress (2): 110/334 kB | 0.2/2.1 MBProgress (2): 114/334 kB | 0.2/2.1 MBProgress (2): 114/334 kB | 0.2/2.1 MBProgress (2): 118/334 kB | 0.2/2.1 MBProgress (2): 122/334 kB | 0.2/2.1 MBProgress (2): 126/334 kB | 0.2/2.1 MBProgress (2): 131/334 kB | 0.2/2.1 MBProgress (2): 131/334 kB | 0.2/2.1 MBProgress (2): 135/334 kB | 0.2/2.1 MBProgress (2): 135/334 kB | 0.3/2.1 MBProgress (2): 139/334 kB | 0.3/2.1 MBProgress (2): 143/334 kB | 0.3/2.1 MBProgress (2): 147/334 kB | 0.3/2.1 MBProgress (2): 147/334 kB | 0.3/2.1 MBProgress (2): 151/334 kB | 0.3/2.1 MBProgress (2): 155/334 kB | 0.3/2.1 MBProgress (2): 159/334 kB | 0.3/2.1 MBProgress (2): 163/334 kB | 0.3/2.1 MBProgress (2): 163/334 kB | 0.3/2.1 MBProgress (2): 167/334 kB | 0.3/2.1 MBProgress (2): 171/334 kB | 0.3/2.1 MBProgress (2): 171/334 kB | 0.3/2.1 MBProgress (2): 176/334 kB | 0.3/2.1 MBProgress (2): 180/334 kB | 0.3/2.1 MBProgress (2): 180/334 kB | 0.3/2.1 MBProgress (2): 184/334 kB | 0.3/2.1 MBProgress (2): 188/334 kB | 0.3/2.1 MBProgress (2): 192/334 kB | 0.3/2.1 MBProgress (2): 196/334 kB | 0.3/2.1 MBProgress (2): 196/334 kB | 0.3/2.1 MBProgress (2): 200/334 kB | 0.3/2.1 MBProgress (2): 204/334 kB | 0.3/2.1 MBProgress (2): 208/334 kB | 0.3/2.1 MBProgress (2): 212/334 kB | 0.3/2.1 MBProgress (2): 212/334 kB | 0.4/2.1 MBProgress (2): 217/334 kB | 0.4/2.1 MBProgress (2): 221/334 kB | 0.4/2.1 MBProgress (2): 225/334 kB | 0.4/2.1 MBProgress (2): 229/334 kB | 0.4/2.1 MBProgress (2): 229/334 kB | 0.4/2.1 MBProgress (2): 233/334 kB | 0.4/2.1 MBProgress (2): 237/334 kB | 0.4/2.1 MBProgress (2): 241/334 kB | 0.4/2.1 MBProgress (2): 241/334 kB | 0.4/2.1 MBProgress (2): 245/334 kB | 0.4/2.1 MBProgress (2): 249/334 kB | 0.4/2.1 MBProgress (2): 253/334 kB | 0.4/2.1 MBProgress (2): 253/334 kB | 0.4/2.1 MBProgress (2): 257/334 kB | 0.4/2.1 MBProgress (2): 262/334 kB | 0.4/2.1 MBProgress (2): 262/334 kB | 0.4/2.1 MBProgress (2): 266/334 kB | 0.4/2.1 MBProgress (2): 270/334 kB | 0.4/2.1 MBProgress (2): 274/334 kB | 0.4/2.1 MBProgress (2): 278/334 kB | 0.4/2.1 MBProgress (2): 278/334 kB | 0.4/2.1 MBProgress (2): 282/334 kB | 0.4/2.1 MBProgress (2): 286/334 kB | 0.4/2.1 MBProgress (2): 290/334 kB | 0.4/2.1 MBProgress (2): 290/334 kB | 0.5/2.1 MBProgress (2): 294/334 kB | 0.5/2.1 MBProgress (2): 294/334 kB | 0.5/2.1 MBProgress (2): 298/334 kB | 0.5/2.1 MBProgress (2): 303/334 kB | 0.5/2.1 MBProgress (2): 307/334 kB | 0.5/2.1 MBProgress (2): 311/334 kB | 0.5/2.1 MBProgress (2): 311/334 kB | 0.5/2.1 MBProgress (2): 315/334 kB | 0.5/2.1 MBProgress (2): 319/334 kB | 0.5/2.1 MBProgress (2): 323/334 kB | 0.5/2.1 MBProgress (2): 327/334 kB | 0.5/2.1 MBProgress (2): 327/334 kB | 0.5/2.1 MBProgress (2): 331/334 kB | 0.5/2.1 MBProgress (2): 334 kB | 0.5/2.1 MB    Progress (2): 334 kB | 0.5/2.1 MBProgress (2): 334 kB | 0.5/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.6/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.7/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.8/2.1 MBProgress (2): 334 kB | 0.9/2.1 MBProgress (2): 334 kB | 0.9/2.1 MBProgress (2): 334 kB | 0.9/2.1 MBProgress (2): 334 kB | 0.9/2.1 MBProgress (2): 334 kB | 0.9/2.1 MBProgress (2): 334 kB | 0.9/2.1 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar (334 kB at 987 kB/s)
-Progress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.0/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.1/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.2/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.3/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.4/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.5/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.6/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.7/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.8/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 1.9/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.0/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1/2.1 MBProgress (1): 2.1 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.jar (2.1 MB at 4.9 MB/s)
 [INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
-Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom
-Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom (1.5 kB at 18 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom
-Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom (5.4 kB at 68 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.pom
-Progress (1): 4.1/20 kBProgress (1): 8.2/20 kBProgress (1): 12/20 kB Progress (1): 16/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.pom (20 kB at 873 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
-Progress (1): 4.1/10 kBProgress (1): 8.2/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom (10 kB at 449 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
-Progress (1): 4.1/36 kBProgress (1): 8.2/36 kBProgress (1): 12/36 kB Progress (1): 16/36 kBProgress (1): 20/36 kBProgress (1): 25/36 kBProgress (1): 29/36 kBProgress (1): 33/36 kBProgress (1): 36 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom (36 kB at 416 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
-Progress (1): 4.1/6.0 kBProgress (1): 6.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom (6.0 kB at 70 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom
-Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom (2.8 kB at 146 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
-Progress (1): 4.1/17 kBProgress (1): 8.2/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom (17 kB at 787 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
-Progress (1): 820 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom (820 B at 41 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.pom
-Progress (1): 4.1/31 kBProgress (1): 8.2/31 kBProgress (1): 12/31 kB Progress (1): 16/31 kBProgress (1): 20/31 kBProgress (1): 24/31 kBProgress (1): 28/31 kBProgress (1): 31 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.pom (31 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.2.14/assertj-parent-pom-2.2.14.pom
-Progress (1): 4.1/25 kBProgress (1): 8.2/25 kBProgress (1): 12/25 kB Progress (1): 16/25 kBProgress (1): 20/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.2.14/assertj-parent-pom-2.2.14.pom (25 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
-Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom (5.6 kB at 313 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0/junit-bom-5.8.0.pom
-Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0/junit-bom-5.8.0.pom (5.6 kB at 296 kB/s)
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running AuthIntegrationTest
-[ERROR] Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 8.485 s <<< FAILURE! - in AuthIntegrationTest
-[ERROR] AuthIntegrationTest.postRegisterThenPostIncorrectLoginTest  Time elapsed: 2.287 s  <<< FAILURE!
+[ERROR] Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 9.362 s <<< FAILURE! - in AuthIntegrationTest
+[ERROR] AuthIntegrationTest.postRegisterThenPostIncorrectLoginTest  Time elapsed: 3.185 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -280,7 +76,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] AuthIntegrationTest.postRegisterShortPasswordTest  Time elapsed: 1.051 s  <<< FAILURE!
+[ERROR] AuthIntegrationTest.postRegisterShortPasswordTest  Time elapsed: 1.032 s  <<< FAILURE!
 java.lang.AssertionError: expected:<400> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -329,7 +125,7 @@ java.lang.AssertionError: expected:<400> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] AuthIntegrationTest.postLoginEmptyTest  Time elapsed: 1.025 s  <<< FAILURE!
+[ERROR] AuthIntegrationTest.postLoginEmptyTest  Time elapsed: 1.03 s  <<< FAILURE!
 java.lang.AssertionError: expected:<401> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -378,7 +174,7 @@ java.lang.AssertionError: expected:<401> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] AuthIntegrationTest.postRegisterDuplicateUsernameTest  Time elapsed: 1.024 s  <<< FAILURE!
+[ERROR] AuthIntegrationTest.postRegisterDuplicateUsernameTest  Time elapsed: 1.029 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -428,7 +224,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] AuthIntegrationTest.postRegisterTest  Time elapsed: 1.025 s  <<< FAILURE!
+[ERROR] AuthIntegrationTest.postRegisterTest  Time elapsed: 1.028 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -477,7 +273,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] AuthIntegrationTest.postRegisterBlankUsernameTest  Time elapsed: 1.038 s  <<< FAILURE!
+[ERROR] AuthIntegrationTest.postRegisterBlankUsernameTest  Time elapsed: 1.023 s  <<< FAILURE!
 java.lang.AssertionError: expected:<400> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -577,8 +373,8 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
 [INFO] Running MessagingIntegrationTest
-[ERROR] Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 20.415 s <<< FAILURE! - in MessagingIntegrationTest
-[ERROR] MessagingIntegrationTest.postAccountAndMessageThenGetMessageTest  Time elapsed: 0.997 s  <<< FAILURE!
+[ERROR] Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 20.466 s <<< FAILURE! - in MessagingIntegrationTest
+[ERROR] MessagingIntegrationTest.postAccountAndMessageThenGetMessageTest  Time elapsed: 1 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -629,7 +425,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.deleteMessageNonExistentMessageTest  Time elapsed: 1.023 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.deleteMessageNonExistentMessageTest  Time elapsed: 1.025 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -678,7 +474,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postAccountAndBlankMessage  Time elapsed: 1.025 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postAccountAndBlankMessage  Time elapsed: 1.026 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -728,7 +524,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.patchMessageTest  Time elapsed: 1.021 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.patchMessageTest  Time elapsed: 1.023 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -779,7 +575,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postManyUsersAndMessagesThenGetAllMessages  Time elapsed: 1.023 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postManyUsersAndMessagesThenGetAllMessages  Time elapsed: 1.024 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -883,7 +679,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.deleteMessageTest  Time elapsed: 1.021 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.deleteMessageTest  Time elapsed: 1.042 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -934,7 +730,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postMessageNonExistentAccountTest  Time elapsed: 1.021 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postMessageNonExistentAccountTest  Time elapsed: 1.02 s  <<< FAILURE!
 java.lang.AssertionError: expected:<400> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -983,7 +779,7 @@ java.lang.AssertionError: expected:<400> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.getMessageAfterPatchTest  Time elapsed: 1.026 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.getMessageAfterPatchTest  Time elapsed: 1.033 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1035,7 +831,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postAccountAndTooLongMessage  Time elapsed: 1.024 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postAccountAndTooLongMessage  Time elapsed: 1.03 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1085,7 +881,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.patchMessageTooLongTest  Time elapsed: 1.019 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.patchMessageTooLongTest  Time elapsed: 1.021 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1136,7 +932,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.getMessagesByAccountIdEmpty  Time elapsed: 1.02 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.getMessagesByAccountIdEmpty  Time elapsed: 1.022 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1185,7 +981,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.deletedMessageShouldNotExistTest  Time elapsed: 1.035 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.deletedMessageShouldNotExistTest  Time elapsed: 1.028 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1237,7 +1033,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.patchMessageBlankTest  Time elapsed: 1.023 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.patchMessageBlankTest  Time elapsed: 1.018 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1288,7 +1084,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.patchMessageNonExistentMessageTest  Time elapsed: 1.022 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.patchMessageNonExistentMessageTest  Time elapsed: 1.02 s  <<< FAILURE!
 java.lang.AssertionError: expected:<400> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1337,7 +1133,7 @@ java.lang.AssertionError: expected:<400> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postManyAccountsAndMessagesTest  Time elapsed: 1.019 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postManyAccountsAndMessagesTest  Time elapsed: 1.022 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1388,7 +1184,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.getAllMessagesEmptyTest  Time elapsed: 1.018 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.getAllMessagesEmptyTest  Time elapsed: 1.022 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1437,7 +1233,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postAccountAndMessageTest  Time elapsed: 1.017 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postAccountAndMessageTest  Time elapsed: 1.021 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1487,7 +1283,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postAccountTest  Time elapsed: 1.019 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postAccountTest  Time elapsed: 1.022 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1536,7 +1332,7 @@ java.lang.AssertionError: expected:<200> but was:<404>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-[ERROR] MessagingIntegrationTest.postAccountAndMessageAndGetAllMessagesTest  Time elapsed: 1.018 s  <<< FAILURE!
+[ERROR] MessagingIntegrationTest.postAccountAndMessageAndGetAllMessagesTest  Time elapsed: 1.021 s  <<< FAILURE!
 java.lang.AssertionError: expected:<200> but was:<404>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -1624,8 +1420,8 @@ java.lang.AssertionError: expected:<200> but was:<404>
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  41.680 s
-[INFO] Finished at: 2023-01-31T03:39:47Z
+[INFO] Total time:  34.012 s
+[INFO] Finished at: 2023-01-31T03:40:47Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project Challenges: There are test failures.
 [ERROR] 

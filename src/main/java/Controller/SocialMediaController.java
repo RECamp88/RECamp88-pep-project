@@ -17,9 +17,10 @@ public class SocialMediaController {
     public Javalin startAPI() {
         Javalin app = Javalin.create();
         app.get("example-endpoint", this::exampleHandler);
-
+        
+        app.post("localhost:8080/register", this::postRegisterHandler);
         return app;
-    }
+    
 
     /**
      * This is an example handler for an example endpoint.
@@ -27,6 +28,18 @@ public class SocialMediaController {
      */
     private void exampleHandler(Context context) {
         context.json("sample text");
+    }
+
+    private void postRegisterHandler(Context context) throws JsonProcessingException {
+        
+		ObjectMapper mapper = new ObjectMapper();
+		Account account = mapper.readValue(context.body(), Account.class);
+		Account addedAccount = accountService.addAccount(account);
+		if(addedAccount!=null){
+			context.json(mapper.writeValueAsString(addedAccount));
+		}else {
+			context.status(400);
+		
     }
 
 
