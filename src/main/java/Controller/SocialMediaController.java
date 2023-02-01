@@ -35,7 +35,7 @@ public class SocialMediaController {
         app.post("localhost:8080/login", this::postAccountLoginHandler);
         app.post("localhost:8080/messages", this::postMessageHandler);
         app.get("localhost:8080/messages", this::getAllMessagesHandler);
-        app.get("localhost:8080/messages/message_id", this::getMessageByIdHandler);
+        app.get("localhost:8080/messages/{message_id}", this::getMessageByIdHandler);
         return app;
     }
     
@@ -89,6 +89,7 @@ public class SocialMediaController {
 
         ObjectMapper mapper = new ObjectMapper();
         Message message = mapper.readValue(context.body(), Message.class);
+        //Message message = context.pathParam("message_id");
         Message messageId = messageService.getMessageById(message.getMessage_id());
 
         context.json(messageId);

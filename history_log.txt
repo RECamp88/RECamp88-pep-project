@@ -1,7 +1,7 @@
-commit 1777ca3f662e438c2bafffab0593c77443a1a869
+commit 3943179fd7ca9bcc36cbf797f933efbc388f5d61
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Wed Feb 1 19:50:47 2023 +0000
+Date:   Wed Feb 1 20:46:27 2023 +0000
 
-    continued adding requirements 4 and 5
+    added login methods for service, dao, & controller
 
- 7 files changed, 2850 insertions(+), 74 deletions(-)
+ 6 files changed, 288 insertions(+), 340 deletions(-)
