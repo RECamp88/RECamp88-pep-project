@@ -1,7 +1,7 @@
-commit 4ea4b486d32b658d5053b72ef4854c780fe791cc
+commit 6464a2a3f9cdd7a57f25e41b2c66f83f5ef9c423
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Wed Feb 1 09:32:23 2023 +0000
+Date:   Wed Feb 1 10:13:56 2023 +0000
 
-    Added constructors & addAccount to AccountService
+    added to MessageDAO, MessageService & controller
 
- 3 files changed, 24 insertions(+), 6 deletions(-)
+ 6 files changed, 96 insertions(+), 9 deletions(-)

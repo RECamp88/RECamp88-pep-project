@@ -1,5 +1,11 @@
 package Controller;
 
+import Model.Account;
+import Model.Message;
+import Service.AccountService;
+import Service.MessageService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -19,9 +25,11 @@ public class SocialMediaController {
         app.get("example-endpoint", this::exampleHandler);
 
         app.post("localhost:8080/register", this::postRegisterHandler);
-
+        app.post("localhost:8080/login", this::postAccountLoginHandler);
         app.post("localhost:8080/messages", this::postMessageHandler);
+        app.get("localhost:8080/messages/{message_id}", this::getAllMessagesHandler);
         return app;
+    }
     
 
     /**
@@ -31,30 +39,33 @@ public class SocialMediaController {
     private void exampleHandler(Context context) {
         context.json("sample text");
     }
-
+    // handles the first requirement of creating a new account
     private void postRegisterHandler(Context context) throws JsonProcessingException {
         
 		ObjectMapper mapper = new ObjectMapper();
 		Account account = mapper.readValue(context.body(), Account.class);
-		Account addedAccount = accountService.addAccount(account);
+		Account addedAccount = AccountService.addAccount(account);
 		if(addedAccount!=null){
 			context.json(mapper.writeValueAsString(addedAccount));
 		}else {
 			context.status(400);
 		
+        }
     }
+    // handles the 2nd requirement of validating a login
+    private void postAccountLoginHandler(Context context) throws JsonProcessingException{
 
-
-
+    }
+    // handles the 3rd requirement of adding a message
     private void postMessageHandler(Context context) throws JsonProcessingException {
         
 		ObjectMapper mapper = new ObjectMapper();
 		Message message = mapper.readValue(context.body(), Message.class);
-		Account addedAccount = accountService.addAccount(account);
+		Message addedMessage = MessageService.addMessage(message);
 		if(addedMessage!=null){
 			context.json(mapper.writeValueAsString(addedMessage));
 		}else {
 			context.status(400);
-		
+        }
     }
 }

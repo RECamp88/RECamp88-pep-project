@@ -6,7 +6,7 @@ public class MessageService {
 
     //constructor with no args
     public MessageService(){
-        messageDAO = new MessageDAO;
+        messageDAO = new MessageDAO();
     }
 
     //constructor with MessageDAO provided

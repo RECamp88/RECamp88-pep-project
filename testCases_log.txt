@@ -17,21 +17,25 @@
 [INFO] -------------------------------------------------------------
 [ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/AccountService.java:[9,36] '(' or '[' expected
 [ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/AccountService.java:[14,25] not a statement
-[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[29,5] illegal start of expression
-[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[46,2] reached end of file while parsing
-[INFO] 4 errors 
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/MessageService.java:[9,36] '(' or '[' expected
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[31,5] illegal start of expression
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[49,5] illegal start of expression
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[60,2] reached end of file while parsing
+[INFO] 6 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.321 s
-[INFO] Finished at: 2023-02-01T09:32:31Z
+[INFO] Total time:  3.531 s
+[INFO] Finished at: 2023-02-01T10:14:02Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Challenges: Compilation failure: Compilation failure: 
 [ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/AccountService.java:[9,36] '(' or '[' expected
 [ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/AccountService.java:[14,25] not a statement
-[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[29,5] illegal start of expression
-[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[46,2] reached end of file while parsing
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Service/MessageService.java:[9,36] '(' or '[' expected
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[31,5] illegal start of expression
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[49,5] illegal start of expression
+[ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[60,2] reached end of file while parsing
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
