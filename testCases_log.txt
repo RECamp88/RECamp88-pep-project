@@ -22,8 +22,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.494 s
-[INFO] Finished at: 2023-02-01T09:15:08Z
+[INFO] Total time:  2.797 s
+[INFO] Finished at: 2023-02-01T09:16:47Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Challenges: Compilation failure: Compilation failure: 
 [ERROR] /workspace/RECamp88-pep-project/src/main/java/Controller/SocialMediaController.java:[29,5] illegal start of expression
