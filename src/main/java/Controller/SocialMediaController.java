@@ -85,13 +85,9 @@ public class SocialMediaController {
 
     }
     // handles the 5th requirement of gettinga message by its id
-    private void getMessageByIdHandler(Context context) throws JsonProcessingException{
-
-        ObjectMapper mapper = new ObjectMapper();
-        Message message = mapper.readValue(context.body(), Message.class);
-        //Message message = context.pathParam("message_id");
-        Message messageId = messageService.getMessageById(message.getMessage_id());
-
-        context.json(messageId);
+    private void getMessageByIdHandler(Context context) {
+       int messageId = Integer.parseInt(context.pathParam("message_id")); 
+       context.json(messageService.getMessageById(messageId));     
+       
     }
 }
