@@ -25,8 +25,10 @@ public class MessageService {
     }
     //handles 3rd requirement to create a new message. 
     //adding a message
+    // need to verify that the message is not larger than 255
+    // and the posted by is valid (this constraint is handled in the DAO)
     public Message addMessage(Message message){
-        if(messageDAO.getMessageById(message.getMessage_id()) == null){
+        if(message.message_text.length() < 256){
             return messageDAO.addMessage(message);
         }
         return null;        

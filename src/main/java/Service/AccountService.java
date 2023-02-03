@@ -19,7 +19,11 @@ public class AccountService {
 
     // using the AccountDAO to persist an account.  Account ID will not be provided. 
     public Account addAccount(Account account){
-        return accountDAO.addAccount(account);
+        if(account.username!="" && account.password.length() > 3){
+            return accountDAO.addAccount(account);
+        }
+        
+        return null;        
     }
 
     public Account loginAccount(Account account){

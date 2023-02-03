@@ -17,7 +17,7 @@ public class AccountDAO {
     public Account addAccount(Account account){
 		Connection connection = ConnectionUtil.getConnection();
 		try{
-			String sql = "INSERT INTO account (username, password) VALUES (?, ?) WHERE LEN(password) > 3;";
+			String sql = "INSERT INTO account (username, password) VALUES (?, ?);";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
 			preparedStatement.setString(1, account.getUsername());

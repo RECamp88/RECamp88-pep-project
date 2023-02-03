@@ -8,7 +8,6 @@ import Service.MessageService;
 import java.util.List;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
@@ -31,11 +30,11 @@ public class SocialMediaController {
      */
     public Javalin startAPI() {
         Javalin app = Javalin.create();
-        app.post("localhost:8080/register", this::postRegisterHandler);
-        app.post("localhost:8080/login", this::postAccountLoginHandler);
-        app.post("localhost:8080/messages", this::postMessageHandler);
-        app.get("localhost:8080/messages", this::getAllMessagesHandler);
-        app.get("localhost:8080/messages/{message_id}", this::getMessageByIdHandler);
+        app.post("/register", this::postRegisterHandler);
+        app.post("/login", this::postAccountLoginHandler);
+        app.post("/message", this::postMessageHandler);
+        app.get("/message", this::getAllMessagesHandler);
+        app.get("/message/{message_id}", this::getMessageByIdHandler);
         return app;
     }
     
