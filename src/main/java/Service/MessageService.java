@@ -36,8 +36,7 @@ public class MessageService {
     // handles 5th requiment to get a message by its id
     //retrieving message by id
     public Message getMessageById(int id){
-        // create an if statement to validate if the message id exists
-        // also consider if this can be done in the DAO
+       
         return messageDAO.getMessageById(id);
     }
 
