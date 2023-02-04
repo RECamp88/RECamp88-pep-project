@@ -26,8 +26,8 @@ public class MessageService {
     //handles 3rd requirement to create a new message. 
     //adding a message
     public Message addMessage(Message message){
-        if(message.message_text.length() < 256 && message.getPosted_by()!=0){
-            return messageDAO.addMessage(message);
+        if(message.message_text.length() < 256 && ){
+           return messageDAO.addMessage(message);
         }
         return null;        
     }
