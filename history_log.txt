@@ -1,7 +1,7 @@
-commit adb8897ca6c33647ec3bbd97619b92961db271d3
+commit af97acc9d364ebbdf26386d06b9049ef52acadce
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Sat Feb 4 21:49:01 2023 +0000
+Date:   Sat Feb 4 22:27:10 2023 +0000
 
-    corrected some errors for testing
+    correct delete statement
 
- 5 files changed, 35 insertions(+), 84 deletions(-)
+ 3 files changed, 89 insertions(+), 189 deletions(-)
