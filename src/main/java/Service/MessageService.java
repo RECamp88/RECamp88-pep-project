@@ -36,7 +36,27 @@ public class MessageService {
     // handles 5th requiment to get a message by its id
     //retrieving message by id
     public Message getMessageById(int id){
+        // create an if statement to validate if the message id exists
+        // also consider if this can be done in the DAO
         return messageDAO.getMessageById(id);
+    }
+
+    public Message deleteMessageById(int messageId) {
+        if(messageDAO.getMessageById(messageId) != null){
+            return messageDAO.deleteMessageById(messageId);
+        }
+        return null;
+    }
+
+    public Message updateMessageById(Message message, int messageId) {
+        if(messageDAO.getMessageById(messageId) !=null && message.getMessage_text().length()<256 && message.getMessage_text() !=""){
+            return messageDAO.updateMessageById(message, messageId);
+        }
+        return null;
+    }
+
+    public List<Message> getAllMessagesByAcctId(int accountId) {
+        return messageDAO.getMessagesByAcctId(accountId);
     }
    
 }

@@ -35,6 +35,9 @@ public class SocialMediaController {
         app.post("/message", this::postMessageHandler);
         app.get("/message", this::getAllMessagesHandler);
         app.get("/message/{message_id}", this::getMessageByIdHandler);
+        app.delete("/messages/{message_id}", this::deleteMessageByIdHandler);
+        app.patch("/messages/{message_id}", this::updateMessageByIdHandler);
+        app.get("/accounts/{account_id}", this::getMessagesByAcctIDHandler);
         return app;
     }
     
@@ -85,8 +88,35 @@ public class SocialMediaController {
     }
     // handles the 5th requirement of gettinga message by its id
     private void getMessageByIdHandler(Context context) {
-       int messageId = Integer.parseInt(context.pathParam("message_id")); 
+       int messageId = Integer.parseInt(context.pathParam("message_id"));        
        context.json(messageService.getMessageById(messageId));     
        
     }
+    // handles the 6th requirement of deleting a message by its id
+    private void deleteMessageByIdHandler(Context context) {
+        int messageId = Integer.parseInt(context.pathParam("message_id"));        
+        context.json(messageService.deleteMessageById(messageId));     
+        
+     }
+    // handles the 7th request to update a message by its id
+    private void updateMessageByIdHandler(Context context) throws JsonProcessingException{
+        ObjectMapper mapper = new ObjectMapper();
+              
+        Message message = mapper.readValue(context.body(), Message.class);
+        int messageId = Integer.parseInt(context.pathParam("message_id"));
+        Message updateMessage = messageService.updateMessageById(message, messageId);
+        if(updateMessage != null){
+            context.json(messageService.updateMessageById(updateMessage,messageId));
+        }else{
+            context.status(400);
+        } 
+    }   
+     private void getMessagesByAcctIDHandler(Context context){
+        int accountId = Integer.parseInt(context.pathParam("account_id"));
+        List<Message> messages = messageService.getAllMessagesByAcctId(accountId);
+        context.json(messages);
+    }
+
+
+      
 }

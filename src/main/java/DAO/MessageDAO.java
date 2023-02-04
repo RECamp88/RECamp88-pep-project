@@ -40,8 +40,7 @@ public class MessageDAO {
 	//handles 5th requirement to get a message by message_id.
     public Message getMessageById(int message_id){
         Connection connection = ConnectionUtil.getConnection();
-        try {
-           
+        try {          
             String sql = "SELECT * FROM message WHERE message_id =?;";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
@@ -81,4 +80,68 @@ public class MessageDAO {
 		return messages;
 				
 	}
+    public Message deleteMessageById(int messageId) {
+		Connection connection = ConnectionUtil.getConnection();
+		try{
+			String sql = "DELETE * FROM message WHERE message_id = ?;";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			preparedStatement.setInt(1, messageId);
+			ResultSet rs = preparedStatement.executeQuery();
+			while(rs.next()){
+				Message message = new Message(rs.getInt("message_id"),
+						rs.getInt("posted_by"),
+						rs.getString("message_text"),
+						rs.getLong("time_posted_epoch"));
+				return message;
+			}
+					
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+		}
+		return null;
+    }
+	public Message updateMessageById(Message message, int messageId) {
+		Connection connection = ConnectionUtil.getConnection();
+		try{
+			String sql = "UPDATE message SET message_text = ? WHERE message_id = ?;";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			preparedStatement.setString(1, message.getMessage_text());
+			preparedStatement.setInt(2, messageId);
+			ResultSet rs = preparedStatement.executeQuery();
+			while(rs.next()){
+				Message updatedMessage = new Message(rs.getInt("message_id"),
+						rs.getInt("posted_by"),
+						rs.getString("message_text"),
+						rs.getLong("time_posted_epoch"));
+				return updatedMessage;
+			}
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+		}
+		return null;
+	}
+    public List<Message> getMessagesByAcctId(int accountId) {
+		Connection connection = ConnectionUtil.getConnection();
+		List<Message> messages = new ArrayList<>();
+		try{
+			String sql = "SELECT * FROM messages WHERE posted_by = ?;";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			preparedStatement.setInt(1, accountId);
+			ResultSet rs = preparedStatement.executeQuery();
+			while (rs.next()){
+				Message message = new Message(rs.getInt("message_id"), 
+						rs.getInt("posted_by"),
+						rs.getString("message_text"),
+						rs.getLong("time_posted_epoch"));
+				messages.add(message);
+			}
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+		}	
+        return null;
+    
+    }
 }
