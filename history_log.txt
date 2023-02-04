@@ -1,7 +1,7 @@
-commit 54deac6d15fca1ed60019700dcf8705023a11f11
+commit adb8897ca6c33647ec3bbd97619b92961db271d3
 Author: Rachel Campbell <recamp254@gmail.com>
-Date:   Sat Feb 4 20:55:57 2023 +0000
+Date:   Sat Feb 4 21:49:01 2023 +0000
 
-    added update, delete, and return all by account id
+    corrected some errors for testing
 
- 5 files changed, 175 insertions(+), 477 deletions(-)
+ 5 files changed, 35 insertions(+), 84 deletions(-)

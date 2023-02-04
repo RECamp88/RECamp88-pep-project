@@ -83,7 +83,7 @@ public class MessageDAO {
     public Message deleteMessageById(int messageId) {
 		Connection connection = ConnectionUtil.getConnection();
 		try{
-			String sql = "DELETE * FROM message WHERE message_id = ?;";
+			String sql = "DELETE FROM message WHERE message_id = ?;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
 			preparedStatement.setInt(1, messageId);
