@@ -95,18 +95,16 @@ public class SocialMediaController {
     // handles the 6th requirement of deleting a message by its id
     private void deleteMessageByIdHandler(Context context) {
         int messageId = Integer.parseInt(context.pathParam("message_id"));        
-        context.json(messageService.deleteMessageById(messageId));     
-        
+        context.json(messageService.getMessageById(messageId));           
      }
     // handles the 7th request to update a message by its id
     private void updateMessageByIdHandler(Context context) throws JsonProcessingException{
         ObjectMapper mapper = new ObjectMapper();
-              
         Message message = mapper.readValue(context.body(), Message.class);
         int messageId = Integer.parseInt(context.pathParam("message_id"));
         Message updateMessage = messageService.updateMessageById(message, messageId);
         if(updateMessage != null){
-            context.json(messageService.updateMessageById(updateMessage,messageId));
+            context.json(mapper.writeValueAsString(updateMessage));
         }else{
             context.status(400);
         } 

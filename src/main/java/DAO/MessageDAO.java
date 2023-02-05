@@ -46,7 +46,8 @@ public class MessageDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             preparedStatement.setInt(1, message_id);
-            ResultSet rs = preparedStatement.executeQuery();
+			ResultSet rs = preparedStatement.executeQuery();
+             
             while(rs.next()){
                 Message message  = new Message(rs.getInt("message_id"),
                         rs.getInt("posted_by"),
@@ -81,28 +82,30 @@ public class MessageDAO {
 		return messages;
 				
 	}
-    public Message deleteMessageById(int messageId) {
+    public Message deleteMessageById(int messageID) {
 		Connection connection = ConnectionUtil.getConnection();
 		try{
 			String sql = "DELETE FROM message WHERE message_id = ?;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
-			preparedStatement.setInt(1, messageId);
+			preparedStatement.setInt(1, messageID);
+			
 			ResultSet rs = preparedStatement.executeQuery();
 			while(rs.next()){
-				Message message = new Message(rs.getInt("message_id"),
-						rs.getInt("posted_by"),
-						rs.getString("message_text"),
-						rs.getLong("time_posted_epoch"));
+				Message message = new Message(
+					rs.getInt("message_id"),
+					rs.getInt("posted_by"),
+					rs.getString("message_text"),
+					rs.getLong("time_posted_epoch"));
+				
 				return message;
 			}
-					
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
 		return null;
     }
-	public Message updateMessageById(Message message, int messageId) {
+	public Message updateMessageById(Message message, int messageId){
 		Connection connection = ConnectionUtil.getConnection();
 		try{
 			String sql = "UPDATE message SET message_text = ? WHERE message_id = ?;";
@@ -110,14 +113,17 @@ public class MessageDAO {
 
 			preparedStatement.setString(1, message.getMessage_text());
 			preparedStatement.setInt(2, messageId);
-			ResultSet rs = preparedStatement.executeQuery();
-			while(rs.next()){
-				Message updatedMessage = new Message(rs.getInt("message_id"),
-						rs.getInt("posted_by"),
-						rs.getString("message_text"),
-						rs.getLong("time_posted_epoch"));
-				return updatedMessage;
-			}
+			preparedStatement.executeUpdate();
+
+			ResultSet rs = preparedStatement.getResultSet();
+			if(rs != null){
+				Message newMessage = new Message(
+					rs.getInt("message_id"),
+					rs.getInt("posted_by"),
+					rs.getString("message_text"),
+					rs.getLong("time_posted_epoch"));
+				return newMessage;
+			}		
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
