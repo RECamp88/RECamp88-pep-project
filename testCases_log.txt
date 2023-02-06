@@ -27,11 +27,11 @@
 [INFO] Running AuthIntegrationTest
 Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_E ON PUBLIC.ACCOUNT(USERNAME NULLS FIRST) VALUES ( /* 1 */ 'user' )"; SQL statement:
 INSERT INTO account (username, password) VALUES (?, ?) [23505-214]
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.8 s - in AuthIntegrationTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.911 s - in AuthIntegrationTest
 [INFO] Running MessagingIntegrationTest
 Referential integrity constraint violation: "CONSTRAINT_63: PUBLIC.MESSAGE FOREIGN KEY(POSTED_BY) REFERENCES PUBLIC.ACCOUNT(ACCOUNT_ID) (1)"; SQL statement:
 INSERT INTO message (posted_by, message_text, time_posted_epoch) VALUES ( ?, ?, ?) [23506-214]
-[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.097 s - in MessagingIntegrationTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.882 s - in MessagingIntegrationTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -40,6 +40,6 @@ INSERT INTO message (posted_by, message_text, time_posted_epoch) VALUES ( ?, ?, 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  37.824 s
-[INFO] Finished at: 2023-02-06T21:17:45Z
+[INFO] Total time:  33.909 s
+[INFO] Finished at: 2023-02-06T21:18:34Z
 [INFO] ------------------------------------------------------------------------
