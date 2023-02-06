@@ -19,7 +19,7 @@ public class MessageDAO {
 		Connection connection = ConnectionUtil.getConnection();
 		try{
 			// validating that the posted_by number is found in the account_id as posted_by is a fk referencing account_id
-			String sql = "INSERT INTO message (posted_by, message_text, time_posted_epoch) VALUES (SELECT account_id FROM account WHERE account_id= ?, ?, ?);";
+			String sql = "INSERT INTO message (posted_by, message_text, time_posted_epoch) VALUES ( ?, ?, ?);";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
 			preparedStatement.setInt(1, message.getPosted_by());
@@ -89,17 +89,8 @@ public class MessageDAO {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
 			preparedStatement.setInt(1, messageID);
+			preparedStatement.executeUpdate();
 			
-			ResultSet rs = preparedStatement.executeQuery();
-			while(rs.next()){
-				Message message = new Message(
-					rs.getInt("message_id"),
-					rs.getInt("posted_by"),
-					rs.getString("message_text"),
-					rs.getLong("time_posted_epoch"));
-				
-				return message;
-			}
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
@@ -114,16 +105,8 @@ public class MessageDAO {
 			preparedStatement.setString(1, message.getMessage_text());
 			preparedStatement.setInt(2, messageId);
 			preparedStatement.executeUpdate();
-
-			ResultSet rs = preparedStatement.getResultSet();
-			if(rs != null){
-				Message newMessage = new Message(
-					rs.getInt("message_id"),
-					rs.getInt("posted_by"),
-					rs.getString("message_text"),
-					rs.getLong("time_posted_epoch"));
-				return newMessage;
-			}		
+			
+			return getMessageById(messageId);
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}
@@ -133,7 +116,7 @@ public class MessageDAO {
 		Connection connection = ConnectionUtil.getConnection();
 		List<Message> messages = new ArrayList<>();
 		try{
-			String sql = "SELECT * FROM messages WHERE posted_by = ?;";
+			String sql = "SELECT * FROM message WHERE posted_by = ?;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
 			preparedStatement.setInt(1, accountId);
@@ -148,7 +131,7 @@ public class MessageDAO {
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}	
-        return null;
+        return messages;
     
     }
 }

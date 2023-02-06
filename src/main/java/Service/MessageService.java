@@ -26,7 +26,7 @@ public class MessageService {
     //handles 3rd requirement to create a new message. 
     //adding a message
     public Message addMessage(Message message){
-        if(message.message_text.length() < 256 && message.message_text !=null){
+        if(message.message_text.length() < 256 && message.message_text !=""){
            return messageDAO.addMessage(message);
         }
         return null;        
@@ -38,14 +38,22 @@ public class MessageService {
         return messageDAO.getMessageById(id);
     }
 
-    public Message deleteMessageById(int messageID) {
-       
-            return messageDAO.getMessageById(messageID);
+    public Message deleteMessageById(int messageId) {
+        Message message = messageDAO.getMessageById(messageId);
+        // messageDAO.deleteMessageById(messageId);
+        // if(message.message_text=="" || message.message_id == 0){
+        //     return null;
+        // }
+        // return message;
+        if(message == null){
+            return null;
+        }
+        return messageDAO.deleteMessageById(messageId);
     }
 
     public Message updateMessageById(Message message, int messageId) {
         
-        if(getMessageById(messageId)==null ||message.getMessage_text() == null || message.getMessage_text().length()>256){
+        if(getMessageById(messageId)==null ||message.message_text == "" || message.message_text.length()>255){
             return null ;
         }
         return messageDAO.updateMessageById(message, messageId);

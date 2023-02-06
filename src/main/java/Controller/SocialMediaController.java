@@ -37,7 +37,7 @@ public class SocialMediaController {
         app.get("/messages/{message_id}", this::getMessageByIdHandler);
         app.delete("/messages/{message_id}", this::deleteMessageByIdHandler);
         app.patch("/messages/{message_id}", this::updateMessageByIdHandler);
-        app.get("/accounts/{account_id}", this::getMessagesByAcctIDHandler);
+        app.get("/accounts/{account_id}/messages", this::getMessagesByAcctIDHandler);
         return app;
     }
     
@@ -93,10 +93,16 @@ public class SocialMediaController {
        
     }
     // handles the 6th requirement of deleting a message by its id
-    private void deleteMessageByIdHandler(Context context) {
-        int messageId = Integer.parseInt(context.pathParam("message_id"));        
-        context.json(messageService.getMessageById(messageId));           
+    private void deleteMessageByIdHandler(Context context) throws JsonProcessingException {
+        int messageId = Integer.parseInt(context.pathParam("message_id"));
+        Message message = messageService.deleteMessageById(messageId);      
+        if(message != null){
+            context.json(message);
+        }else{
+            context.status(200);
+        }                   
      }
+
     // handles the 7th request to update a message by its id
     private void updateMessageByIdHandler(Context context) throws JsonProcessingException{
         ObjectMapper mapper = new ObjectMapper();
