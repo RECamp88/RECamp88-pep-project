@@ -88,19 +88,25 @@ public class SocialMediaController {
     }
     // handles the 5th requirement of gettinga message by its id
     private void getMessageByIdHandler(Context context) {
-       int messageId = Integer.parseInt(context.pathParam("message_id"));        
-       context.json(messageService.getMessageById(messageId));     
-       
-    }
-    // handles the 6th requirement of deleting a message by its id
-    private void deleteMessageByIdHandler(Context context) throws JsonProcessingException {
-        int messageId = Integer.parseInt(context.pathParam("message_id"));
-        Message message = messageService.deleteMessageById(messageId);      
-        if(message != null){
+    //    int messageId = Integer.parseInt(context.pathParam("message_id"));        
+    //    context.json(messageService.getMessageById(messageId));     
+        int messageId = Integer.parseInt(context.pathParam("message_id")); 
+        Message message = messageService.getMessageById(messageId);
+        if(message !=null){
             context.json(message);
         }else{
             context.status(200);
-        }                   
+        }
+    }
+    // handles the 6th requirement of deleting a message by its id
+    private void deleteMessageByIdHandler(Context context) throws JsonProcessingException {
+        int messageId = Integer.parseInt(context.pathParam("message_id")); 
+        Message deletedMessage = messageService.deleteMessageById(messageId);
+        if(deletedMessage!=null){
+            context.json(deletedMessage);
+        }else{
+            context.status(200);
+        }
      }
 
     // handles the 7th request to update a message by its id

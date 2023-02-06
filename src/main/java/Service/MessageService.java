@@ -40,15 +40,13 @@ public class MessageService {
 
     public Message deleteMessageById(int messageId) {
         Message message = messageDAO.getMessageById(messageId);
-        // messageDAO.deleteMessageById(messageId);
-        // if(message.message_text=="" || message.message_id == 0){
-        //     return null;
-        // }
-        // return message;
+        messageDAO.deleteMessageById(messageId);
+        
         if(message == null){
             return null;
         }
-        return messageDAO.deleteMessageById(messageId);
+        return message;
+    
     }
 
     public Message updateMessageById(Message message, int messageId) {
